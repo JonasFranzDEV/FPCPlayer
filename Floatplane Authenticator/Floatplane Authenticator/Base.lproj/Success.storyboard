@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WQ1-Hf-L26">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Floatplane Authenticator-->
+        <scene sceneID="Sbw-S9-kwZ">
+            <objects>
+                <viewController id="E9r-CH-wRf" customClass="SuccessViewController" customModule="Floatplane_Authenticator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P23-8Y-u7Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login was successful!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACx-Ud-ZPy">
+                                <rect key="frame" x="84" y="264.5" width="207" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="0P3-QI-0DG"/>
+                                    <constraint firstAttribute="width" constant="207" id="aKI-hp-XdQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You could now use this app to authenticate you for other apps." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bt-KL-gdd">
+                                <rect key="frame" x="50" y="293.5" width="275" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="gg1-m7-O2A"/>
+                                    <constraint firstAttribute="width" constant="275" id="y4U-QQ-fiO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="uUg-qg-24G">
+                                <rect key="frame" x="163" y="381" width="48" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzS-Xy-TS7">
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
+                                        <state key="normal" title="Logout"/>
+                                        <connections>
+                                            <action selector="pressLogout:" destination="E9r-CH-wRf" eventType="touchUpInside" id="QOY-Xm-xUg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9Bt-KL-gdd" firstAttribute="centerY" secondItem="P23-8Y-u7Z" secondAttribute="centerY" id="IfB-Fg-6Uz"/>
+                            <constraint firstItem="ACx-Ud-ZPy" firstAttribute="centerX" secondItem="P23-8Y-u7Z" secondAttribute="centerX" id="KXJ-S6-Xwq"/>
+                            <constraint firstItem="uUg-qg-24G" firstAttribute="centerX" secondItem="P23-8Y-u7Z" secondAttribute="centerX" id="UOW-RC-ebj"/>
+                            <constraint firstItem="9Bt-KL-gdd" firstAttribute="centerX" secondItem="P23-8Y-u7Z" secondAttribute="centerX" id="blf-SI-p5D"/>
+                            <constraint firstItem="uUg-qg-24G" firstAttribute="top" secondItem="9Bt-KL-gdd" secondAttribute="bottom" constant="8" symbolic="YES" id="v11-24-YRp"/>
+                            <constraint firstItem="9Bt-KL-gdd" firstAttribute="top" secondItem="ACx-Ud-ZPy" secondAttribute="bottom" constant="8" id="zGO-2m-N6u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gfZ-zU-VRk"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Floatplane Authenticator" id="NmA-6Z-WTM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qf1-5r-evG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2453.5999999999999" y="133.5832083958021"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="AZn-Hy-biV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WQ1-Hf-L26" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dh2-gS-Q6u">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="E9r-CH-wRf" kind="relationship" relationship="rootViewController" id="GAu-2p-Aua"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ixk-Dd-XAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1688" y="131.33433283358323"/>
+        </scene>
+    </scenes>
+</document>

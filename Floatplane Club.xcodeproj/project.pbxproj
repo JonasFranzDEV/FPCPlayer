@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32009275201979A368D51092 /* Pods_Floatplane_ClubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BEEE1B13FDB4FC3763F9D9 /* Pods_Floatplane_ClubUITests.framework */; };
+		509941EFC04A790195548D86 /* Pods_Floatplane_Club.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26B6E247560F710576678DB /* Pods_Floatplane_Club.framework */; };
 		BD673CCD1FBB0C6E003A2DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD673CCC1FBB0C6E003A2DCC /* AppDelegate.swift */; };
-		BD673CCF1FBB0C6E003A2DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD673CCE1FBB0C6E003A2DCC /* ViewController.swift */; };
+		BD673CCF1FBB0C6E003A2DCC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD673CCE1FBB0C6E003A2DCC /* LoginViewController.swift */; };
 		BD673CD21FBB0C6E003A2DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD673CD01FBB0C6E003A2DCC /* Main.storyboard */; };
 		BD673CD41FBB0C6E003A2DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD673CD31FBB0C6E003A2DCC /* Assets.xcassets */; };
 		BD673CDF1FBB0C6E003A2DCC /* Floatplane_ClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD673CDE1FBB0C6E003A2DCC /* Floatplane_ClubTests.swift */; };
 		BD673CEA1FBB0C6E003A2DCC /* Floatplane_ClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD673CE91FBB0C6E003A2DCC /* Floatplane_ClubUITests.swift */; };
+		BD673CFC1FBB943B003A2DCC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BD673CFB1FBB943B003A2DCC /* Podfile */; };
+		BD673CFD1FBB943B003A2DCC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BD673CFB1FBB943B003A2DCC /* Podfile */; };
+		BD673CFE1FBB943B003A2DCC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BD673CFB1FBB943B003A2DCC /* Podfile */; };
+		BDAC54AC1FBB9843006786D2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC54AB1FBB9843006786D2 /* WelcomeViewController.swift */; };
+		BDAC55B11FBCC997006786D2 /* CookieStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAC55B21FBCC997006786D2 /* CookieStore.framework */; };
+		DB4820EED1E2C24226520A9F /* Pods_Floatplane_ClubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AAD82CCC696C69462F784A /* Pods_Floatplane_ClubTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48664351208D9EA988213106 /* Pods-Floatplane Club.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floatplane Club.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Floatplane Club/Pods-Floatplane Club.debug.xcconfig"; sourceTree = "<group>"; };
+		77AAD82CCC696C69462F784A /* Pods_Floatplane_ClubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floatplane_ClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BEEE1B13FDB4FC3763F9D9 /* Pods_Floatplane_ClubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floatplane_ClubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CF1D7E23E19CEFFC73BDFD /* Pods-Floatplane ClubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floatplane ClubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Floatplane ClubTests/Pods-Floatplane ClubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B26B6E247560F710576678DB /* Pods_Floatplane_Club.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floatplane_Club.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD673CC91FBB0C6E003A2DCC /* Floatplane Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floatplane Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD673CCC1FBB0C6E003A2DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD673CCE1FBB0C6E003A2DCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD673CCE1FBB0C6E003A2DCC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BD673CD11FBB0C6E003A2DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD673CD31FBB0C6E003A2DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD673CD51FBB0C6E003A2DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +58,14 @@
 		BD673CE51FBB0C6E003A2DCC /* Floatplane ClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Floatplane ClubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD673CE91FBB0C6E003A2DCC /* Floatplane_ClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floatplane_ClubUITests.swift; sourceTree = "<group>"; };
 		BD673CEB1FBB0C6E003A2DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD673CFB1FBB943B003A2DCC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDAC54AB1FBB9843006786D2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		BDAC55AA1FBCC5E4006786D2 /* CookieStore_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CookieStore_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAC55B21FBCC997006786D2 /* CookieStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CookieStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B053171C109D59A5C8BF40 /* Pods-Floatplane Club.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floatplane Club.release.xcconfig"; path = "Pods/Target Support Files/Pods-Floatplane Club/Pods-Floatplane Club.release.xcconfig"; sourceTree = "<group>"; };
+		E347FE1C43BDDA4593273B72 /* Pods-Floatplane ClubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floatplane ClubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Floatplane ClubUITests/Pods-Floatplane ClubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E73FD3DA70A83ED91CD6B65F /* Pods-Floatplane ClubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floatplane ClubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Floatplane ClubTests/Pods-Floatplane ClubTests.release.xcconfig"; sourceTree = "<group>"; };
+		F772DE9C303C7AE43A4189C8 /* Pods-Floatplane ClubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floatplane ClubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Floatplane ClubUITests/Pods-Floatplane ClubUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDAC55B11FBCC997006786D2 /* CookieStore.framework in Frameworks */,
+				509941EFC04A790195548D86 /* Pods_Floatplane_Club.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4820EED1E2C24226520A9F /* Pods_Floatplane_ClubTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +90,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32009275201979A368D51092 /* Pods_Floatplane_ClubUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0805DFF98BC73C2C903D5E92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC55B21FBCC997006786D2 /* CookieStore.framework */,
+				BDAC55AA1FBCC5E4006786D2 /* CookieStore_tvOS.framework */,
+				B26B6E247560F710576678DB /* Pods_Floatplane_Club.framework */,
+				77AAD82CCC696C69462F784A /* Pods_Floatplane_ClubTests.framework */,
+				77BEEE1B13FDB4FC3763F9D9 /* Pods_Floatplane_ClubUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD673CC01FBB0C6E003A2DCC = {
 			isa = PBXGroup;
 			children = (
+				BD673CFB1FBB943B003A2DCC /* Podfile */,
 				BD673CCB1FBB0C6E003A2DCC /* Floatplane Club */,
 				BD673CDD1FBB0C6E003A2DCC /* Floatplane ClubTests */,
 				BD673CE81FBB0C6E003A2DCC /* Floatplane ClubUITests */,
 				BD673CCA1FBB0C6E003A2DCC /* Products */,
+				CD2A92AC98F650F5DBEF857C /* Pods */,
+				0805DFF98BC73C2C903D5E92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +136,11 @@
 			isa = PBXGroup;
 			children = (
 				BD673CCC1FBB0C6E003A2DCC /* AppDelegate.swift */,
-				BD673CCE1FBB0C6E003A2DCC /* ViewController.swift */,
+				BD673CCE1FBB0C6E003A2DCC /* LoginViewController.swift */,
 				BD673CD01FBB0C6E003A2DCC /* Main.storyboard */,
 				BD673CD31FBB0C6E003A2DCC /* Assets.xcassets */,
 				BD673CD51FBB0C6E003A2DCC /* Info.plist */,
+				BDAC54AB1FBB9843006786D2 /* WelcomeViewController.swift */,
 			);
 			path = "Floatplane Club";
 			sourceTree = "<group>";
@@ -122,6 +163,19 @@
 			path = "Floatplane ClubUITests";
 			sourceTree = "<group>";
 		};
+		CD2A92AC98F650F5DBEF857C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48664351208D9EA988213106 /* Pods-Floatplane Club.debug.xcconfig */,
+				C1B053171C109D59A5C8BF40 /* Pods-Floatplane Club.release.xcconfig */,
+				92CF1D7E23E19CEFFC73BDFD /* Pods-Floatplane ClubTests.debug.xcconfig */,
+				E73FD3DA70A83ED91CD6B65F /* Pods-Floatplane ClubTests.release.xcconfig */,
+				F772DE9C303C7AE43A4189C8 /* Pods-Floatplane ClubUITests.debug.xcconfig */,
+				E347FE1C43BDDA4593273B72 /* Pods-Floatplane ClubUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD673CEE1FBB0C6E003A2DCC /* Build configuration list for PBXNativeTarget "Floatplane Club" */;
 			buildPhases = (
+				2070F6BBD7C9C97F82EB093D /* [CP] Check Pods Manifest.lock */,
 				BD673CC51FBB0C6E003A2DCC /* Sources */,
 				BD673CC61FBB0C6E003A2DCC /* Frameworks */,
 				BD673CC71FBB0C6E003A2DCC /* Resources */,
+				A80982D19E2D3CA994BC8B8C /* [CP] Embed Pods Frameworks */,
+				88EB1FE5745FCF8E9A5E87D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD673CF11FBB0C6E003A2DCC /* Build configuration list for PBXNativeTarget "Floatplane ClubTests" */;
 			buildPhases = (
+				26853566BEB1A1761034DFFD /* [CP] Check Pods Manifest.lock */,
 				BD673CD61FBB0C6E003A2DCC /* Sources */,
 				BD673CD71FBB0C6E003A2DCC /* Frameworks */,
 				BD673CD81FBB0C6E003A2DCC /* Resources */,
+				D4E7296CF909B7B21BFDB062 /* [CP] Embed Pods Frameworks */,
+				C634B573C270573E1A32A270 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD673CF41FBB0C6E003A2DCC /* Build configuration list for PBXNativeTarget "Floatplane ClubUITests" */;
 			buildPhases = (
+				26C807B30538C715E1803C88 /* [CP] Check Pods Manifest.lock */,
 				BD673CE11FBB0C6E003A2DCC /* Sources */,
 				BD673CE21FBB0C6E003A2DCC /* Frameworks */,
 				BD673CE31FBB0C6E003A2DCC /* Resources */,
+				CB4C26BDD488A3D8BFCB3A15 /* [CP] Embed Pods Frameworks */,
+				5F83E0FCE6F038E728CF2CE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD673CFC1FBB943B003A2DCC /* Podfile in Resources */,
 				BD673CD41FBB0C6E003A2DCC /* Assets.xcassets in Resources */,
 				BD673CD21FBB0C6E003A2DCC /* Main.storyboard in Resources */,
 			);
@@ -238,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD673CFD1FBB943B003A2DCC /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,17 +310,169 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD673CFE1FBB943B003A2DCC /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2070F6BBD7C9C97F82EB093D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Floatplane Club-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26853566BEB1A1761034DFFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Floatplane ClubTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26C807B30538C715E1803C88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Floatplane ClubUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F83E0FCE6F038E728CF2CE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floatplane ClubUITests/Pods-Floatplane ClubUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88EB1FE5745FCF8E9A5E87D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floatplane Club/Pods-Floatplane Club-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80982D19E2D3CA994BC8B8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Floatplane Club/Pods-Floatplane Club-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Voucher-tvOS/Voucher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Voucher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floatplane Club/Pods-Floatplane Club-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C634B573C270573E1A32A270 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floatplane ClubTests/Pods-Floatplane ClubTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB4C26BDD488A3D8BFCB3A15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floatplane ClubUITests/Pods-Floatplane ClubUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4E7296CF909B7B21BFDB062 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floatplane ClubTests/Pods-Floatplane ClubTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD673CC51FBB0C6E003A2DCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD673CCF1FBB0C6E003A2DCC /* ViewController.swift in Sources */,
+				BDAC54AC1FBB9843006786D2 /* WelcomeViewController.swift in Sources */,
+				BD673CCF1FBB0C6E003A2DCC /* LoginViewController.swift in Sources */,
 				BD673CCD1FBB0C6E003A2DCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +627,7 @@
 		};
 		BD673CEF1FBB0C6E003A2DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48664351208D9EA988213106 /* Pods-Floatplane Club.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -421,11 +639,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
 		BD673CF01FBB0C6E003A2DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B053171C109D59A5C8BF40 /* Pods-Floatplane Club.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,11 +657,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
 		BD673CF21FBB0C6E003A2DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CF1D7E23E19CEFFC73BDFD /* Pods-Floatplane ClubTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -459,6 +681,7 @@
 		};
 		BD673CF31FBB0C6E003A2DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73FD3DA70A83ED91CD6B65F /* Pods-Floatplane ClubTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -476,6 +699,7 @@
 		};
 		BD673CF51FBB0C6E003A2DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F772DE9C303C7AE43A4189C8 /* Pods-Floatplane ClubUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +716,7 @@
 		};
 		BD673CF61FBB0C6E003A2DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E347FE1C43BDDA4593273B72 /* Pods-Floatplane ClubUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

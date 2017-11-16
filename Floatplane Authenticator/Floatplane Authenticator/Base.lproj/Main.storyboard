@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aKS-bh-t7g">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="C7m-ZN-lJA">
+            <objects>
+                <navigationController id="aKS-bh-t7g" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KQK-LK-0ZM">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2hJ-VS-rBP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="46p-Ih-9mD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1154" y="132"/>
+        </scene>
+        <!--Floatplane Authenticator-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Floatplane_Authenticator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Li1-kw-eEU">
+                                <rect key="frame" x="54.5" y="249.5" width="266" height="108.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266" id="QMR-Gm-kxk"/>
+                                </constraints>
+                                <string key="text">Use this App to sign in to your Floatplane Account at LTT. After that could you give other Apps like the Apple TV App access to your account.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4a-WJ-LOh">
+                                <rect key="frame" x="164" y="366" width="47" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="S9E-Ba-LOl"/>
+                                    <constraint firstAttribute="height" constant="30" id="fSM-bL-Ssa"/>
+                                </constraints>
+                                <state key="normal" title="Sign in"/>
+                                <connections>
+                                    <segue destination="X9c-kL-SmG" kind="show" id="0td-Qg-Cxz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hint: This App will not store your login credentials. But it will store cookies which could be used to access your account." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PnH-gP-IYt">
+                                <rect key="frame" x="54" y="404" width="266" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="xIR-PU-Drr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PnH-gP-IYt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="54M-vU-SXY"/>
+                            <constraint firstItem="z4a-WJ-LOh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Em-On-TN9"/>
+                            <constraint firstItem="Li1-kw-eEU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-30" id="CrN-q1-pVO"/>
+                            <constraint firstItem="z4a-WJ-LOh" firstAttribute="top" secondItem="Li1-kw-eEU" secondAttribute="bottom" constant="8" id="aVp-ul-JJb"/>
+                            <constraint firstItem="PnH-gP-IYt" firstAttribute="width" secondItem="Li1-kw-eEU" secondAttribute="width" id="aeM-hm-sht"/>
+                            <constraint firstItem="PnH-gP-IYt" firstAttribute="top" secondItem="z4a-WJ-LOh" secondAttribute="bottom" constant="8" id="jXi-7m-tKI"/>
+                            <constraint firstItem="z4a-WJ-LOh" firstAttribute="top" secondItem="Li1-kw-eEU" secondAttribute="bottom" constant="8" id="k4a-7t-vuF"/>
+                            <constraint firstItem="Li1-kw-eEU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mKb-6x-mvi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Floatplane Authenticator" id="aYQ-nO-gO5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Sign in to Floatplane-->
+        <scene sceneID="9fH-qJ-20z">
+            <objects>
+                <viewController title="Sign in to Floatplane" id="X9c-kL-SmG" customClass="WebSignInViewController" customModule="Floatplane_Authenticator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Oid-mm-Gmo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z3Z-GJ-mKH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration" allowsAirPlayForMediaPlayback="NO" allowsPictureInPictureMediaPlayback="NO">
+                                    <dataDetectorTypes key="dataDetectorTypes"/>
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Z3Z-GJ-mKH" firstAttribute="bottom" secondItem="MV1-eP-kzQ" secondAttribute="bottom" id="G5D-UE-w0M"/>
+                            <constraint firstItem="Z3Z-GJ-mKH" firstAttribute="top" secondItem="MV1-eP-kzQ" secondAttribute="top" id="Q3p-3Q-2hm"/>
+                            <constraint firstItem="Z3Z-GJ-mKH" firstAttribute="leading" secondItem="MV1-eP-kzQ" secondAttribute="leading" id="ZR1-gy-0o6"/>
+                            <constraint firstItem="Z3Z-GJ-mKH" firstAttribute="trailing" secondItem="MV1-eP-kzQ" secondAttribute="trailing" id="f8P-Fo-vvZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MV1-eP-kzQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="Z3Z-GJ-mKH" id="TzZ-Hg-K96"/>
+                        <segue destination="ElP-Jo-Ej4" kind="showDetail" identifier="redirectToSuccess" id="yU3-NI-uFB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4VK-cK-mAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821.60000000000002" y="133.5832083958021"/>
+        </scene>
+        <!--Success-->
+        <scene sceneID="D64-cW-D8u">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Success" id="ElP-Jo-Ej4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vsW-F8-F0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1476" y="83"/>
+        </scene>
+    </scenes>
+</document>

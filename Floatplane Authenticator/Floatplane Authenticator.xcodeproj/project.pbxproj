@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EFAC815812E1D4DC6CC21B9 /* Pods_Floatplane_Authenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597EFC576E147C34EBC48391 /* Pods_Floatplane_Authenticator.framework */; };
+		BDAC54EC1FBB9D7D006786D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC54EB1FBB9D7D006786D2 /* AppDelegate.swift */; };
+		BDAC54EE1FBB9D7D006786D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC54ED1FBB9D7D006786D2 /* ViewController.swift */; };
+		BDAC54F11FBB9D7D006786D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAC54EF1FBB9D7D006786D2 /* Main.storyboard */; };
+		BDAC54F31FBB9D7D006786D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAC54F21FBB9D7D006786D2 /* Assets.xcassets */; };
+		BDAC54F61FBB9D7D006786D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAC54F41FBB9D7D006786D2 /* LaunchScreen.storyboard */; };
+		BDAC55011FBB9D7D006786D2 /* Floatplane_AuthenticatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC55001FBB9D7D006786D2 /* Floatplane_AuthenticatorTests.swift */; };
+		BDAC550C1FBB9D7E006786D2 /* Floatplane_AuthenticatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC550B1FBB9D7E006786D2 /* Floatplane_AuthenticatorUITests.swift */; };
+		BDAC555B1FBC97E4006786D2 /* WebSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC555A1FBC97E4006786D2 /* WebSignInViewController.swift */; };
+		BDAC55631FBC9F88006786D2 /* Success.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAC55611FBC9F88006786D2 /* Success.storyboard */; };
+		BDAC55B81FBCD496006786D2 /* CookieStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAC55B41FBCC99F006786D2 /* CookieStore.framework */; };
+		BDAC55B91FBCD496006786D2 /* CookieStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BDAC55B41FBCC99F006786D2 /* CookieStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E822A9377E0A384A97CD5F04 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E822AA438F2E656DA8BE07EE /* SuccessViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDAC54FD1FBB9D7D006786D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAC54E01FBB9D7D006786D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAC54E71FBB9D7D006786D2;
+			remoteInfo = "Floatplane Authenticator";
+		};
+		BDAC55081FBB9D7E006786D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAC54E01FBB9D7D006786D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAC54E71FBB9D7D006786D2;
+			remoteInfo = "Floatplane Authenticator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BDAC55BA1FBCD496006786D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BDAC55B91FBCD496006786D2 /* CookieStore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		597EFC576E147C34EBC48391 /* Pods_Floatplane_Authenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floatplane_Authenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAC54E81FBB9D7D006786D2 /* Floatplane Authenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floatplane Authenticator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAC54EB1FBB9D7D006786D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDAC54ED1FBB9D7D006786D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDAC54F01FBB9D7D006786D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDAC54F21FBB9D7D006786D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDAC54F51FBB9D7D006786D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDAC54F71FBB9D7D006786D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAC54FC1FBB9D7D006786D2 /* Floatplane AuthenticatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Floatplane AuthenticatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAC55001FBB9D7D006786D2 /* Floatplane_AuthenticatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floatplane_AuthenticatorTests.swift; sourceTree = "<group>"; };
+		BDAC55021FBB9D7D006786D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAC55071FBB9D7E006786D2 /* Floatplane AuthenticatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Floatplane AuthenticatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAC550B1FBB9D7E006786D2 /* Floatplane_AuthenticatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floatplane_AuthenticatorUITests.swift; sourceTree = "<group>"; };
+		BDAC550D1FBB9D7E006786D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAC555A1FBC97E4006786D2 /* WebSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSignInViewController.swift; sourceTree = "<group>"; };
+		BDAC55621FBC9F88006786D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Success.storyboard; sourceTree = "<group>"; };
+		BDAC55AC1FBCC5EC006786D2 /* CookieStore_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CookieStore_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAC55B41FBCC99F006786D2 /* CookieStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CookieStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C2708F92DB5ECA530AE1FB /* Pods-Floatplane Authenticator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floatplane Authenticator.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Floatplane Authenticator/Pods-Floatplane Authenticator.debug.xcconfig"; sourceTree = "<group>"; };
+		E822AA438F2E656DA8BE07EE /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		E82C26CA2708795CDC0645FC /* Pods-Floatplane Authenticator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floatplane Authenticator.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Floatplane Authenticator/Pods-Floatplane Authenticator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDAC54E51FBB9D7D006786D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAC55B81FBCD496006786D2 /* CookieStore.framework in Frameworks */,
+				0EFAC815812E1D4DC6CC21B9 /* Pods_Floatplane_Authenticator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC54F91FBB9D7D006786D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC55041FBB9D7E006786D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1282125300CF972F071007A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4C2708F92DB5ECA530AE1FB /* Pods-Floatplane Authenticator.debug.xcconfig */,
+				E82C26CA2708795CDC0645FC /* Pods-Floatplane Authenticator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26A0A152CEB4C8A760CBA8EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC55B41FBCC99F006786D2 /* CookieStore.framework */,
+				BDAC55AC1FBCC5EC006786D2 /* CookieStore_iOS.framework */,
+				597EFC576E147C34EBC48391 /* Pods_Floatplane_Authenticator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDAC54DF1FBB9D7D006786D2 = {
+			isa = PBXGroup;
+			children = (
+				BDAC54EA1FBB9D7D006786D2 /* Floatplane Authenticator */,
+				BDAC54FF1FBB9D7D006786D2 /* Floatplane AuthenticatorTests */,
+				BDAC550A1FBB9D7E006786D2 /* Floatplane AuthenticatorUITests */,
+				BDAC54E91FBB9D7D006786D2 /* Products */,
+				1282125300CF972F071007A2 /* Pods */,
+				26A0A152CEB4C8A760CBA8EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDAC54E91FBB9D7D006786D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC54E81FBB9D7D006786D2 /* Floatplane Authenticator.app */,
+				BDAC54FC1FBB9D7D006786D2 /* Floatplane AuthenticatorTests.xctest */,
+				BDAC55071FBB9D7E006786D2 /* Floatplane AuthenticatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDAC54EA1FBB9D7D006786D2 /* Floatplane Authenticator */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC55611FBC9F88006786D2 /* Success.storyboard */,
+				BDAC54EB1FBB9D7D006786D2 /* AppDelegate.swift */,
+				BDAC54ED1FBB9D7D006786D2 /* ViewController.swift */,
+				BDAC54EF1FBB9D7D006786D2 /* Main.storyboard */,
+				BDAC54F21FBB9D7D006786D2 /* Assets.xcassets */,
+				BDAC54F41FBB9D7D006786D2 /* LaunchScreen.storyboard */,
+				BDAC54F71FBB9D7D006786D2 /* Info.plist */,
+				BDAC555A1FBC97E4006786D2 /* WebSignInViewController.swift */,
+				E822AA438F2E656DA8BE07EE /* SuccessViewController.swift */,
+			);
+			path = "Floatplane Authenticator";
+			sourceTree = "<group>";
+		};
+		BDAC54FF1FBB9D7D006786D2 /* Floatplane AuthenticatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC55001FBB9D7D006786D2 /* Floatplane_AuthenticatorTests.swift */,
+				BDAC55021FBB9D7D006786D2 /* Info.plist */,
+			);
+			path = "Floatplane AuthenticatorTests";
+			sourceTree = "<group>";
+		};
+		BDAC550A1FBB9D7E006786D2 /* Floatplane AuthenticatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC550B1FBB9D7E006786D2 /* Floatplane_AuthenticatorUITests.swift */,
+				BDAC550D1FBB9D7E006786D2 /* Info.plist */,
+			);
+			path = "Floatplane AuthenticatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDAC54E71FBB9D7D006786D2 /* Floatplane Authenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAC55101FBB9D7E006786D2 /* Build configuration list for PBXNativeTarget "Floatplane Authenticator" */;
+			buildPhases = (
+				5F70984F532D3FB189933585 /* [CP] Check Pods Manifest.lock */,
+				BDAC54E41FBB9D7D006786D2 /* Sources */,
+				BDAC54E51FBB9D7D006786D2 /* Frameworks */,
+				BDAC54E61FBB9D7D006786D2 /* Resources */,
+				78E9D5C43E678186B2335216 /* [CP] Embed Pods Frameworks */,
+				6E3E0B95DFDC89E2BB194163 /* [CP] Copy Pods Resources */,
+				BDAC55BA1FBCD496006786D2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Floatplane Authenticator";
+			productName = "Floatplane Authenticator";
+			productReference = BDAC54E81FBB9D7D006786D2 /* Floatplane Authenticator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDAC54FB1FBB9D7D006786D2 /* Floatplane AuthenticatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAC55131FBB9D7E006786D2 /* Build configuration list for PBXNativeTarget "Floatplane AuthenticatorTests" */;
+			buildPhases = (
+				BDAC54F81FBB9D7D006786D2 /* Sources */,
+				BDAC54F91FBB9D7D006786D2 /* Frameworks */,
+				BDAC54FA1FBB9D7D006786D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAC54FE1FBB9D7D006786D2 /* PBXTargetDependency */,
+			);
+			name = "Floatplane AuthenticatorTests";
+			productName = "Floatplane AuthenticatorTests";
+			productReference = BDAC54FC1FBB9D7D006786D2 /* Floatplane AuthenticatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDAC55061FBB9D7E006786D2 /* Floatplane AuthenticatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAC55161FBB9D7E006786D2 /* Build configuration list for PBXNativeTarget "Floatplane AuthenticatorUITests" */;
+			buildPhases = (
+				BDAC55031FBB9D7E006786D2 /* Sources */,
+				BDAC55041FBB9D7E006786D2 /* Frameworks */,
+				BDAC55051FBB9D7E006786D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAC55091FBB9D7E006786D2 /* PBXTargetDependency */,
+			);
+			name = "Floatplane AuthenticatorUITests";
+			productName = "Floatplane AuthenticatorUITests";
+			productReference = BDAC55071FBB9D7E006786D2 /* Floatplane AuthenticatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDAC54E01FBB9D7D006786D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jonas Franz";
+				TargetAttributes = {
+					BDAC54E71FBB9D7D006786D2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BDAC54FB1FBB9D7D006786D2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDAC54E71FBB9D7D006786D2;
+					};
+					BDAC55061FBB9D7E006786D2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDAC54E71FBB9D7D006786D2;
+					};
+				};
+			};
+			buildConfigurationList = BDAC54E31FBB9D7D006786D2 /* Build configuration list for PBXProject "Floatplane Authenticator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDAC54DF1FBB9D7D006786D2;
+			productRefGroup = BDAC54E91FBB9D7D006786D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDAC54E71FBB9D7D006786D2 /* Floatplane Authenticator */,
+				BDAC54FB1FBB9D7D006786D2 /* Floatplane AuthenticatorTests */,
+				BDAC55061FBB9D7E006786D2 /* Floatplane AuthenticatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDAC54E61FBB9D7D006786D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAC54F61FBB9D7D006786D2 /* LaunchScreen.storyboard in Resources */,
+				BDAC54F31FBB9D7D006786D2 /* Assets.xcassets in Resources */,
+				BDAC55631FBC9F88006786D2 /* Success.storyboard in Resources */,
+				BDAC54F11FBB9D7D006786D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC54FA1FBB9D7D006786D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC55051FBB9D7E006786D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F70984F532D3FB189933585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Floatplane Authenticator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E3E0B95DFDC89E2BB194163 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Floatplane Authenticator/Pods-Floatplane Authenticator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E9D5C43E678186B2335216 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-Floatplane Authenticator/Pods-Floatplane Authenticator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Voucher-iOS/Voucher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Voucher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Floatplane Authenticator/Pods-Floatplane Authenticator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDAC54E41FBB9D7D006786D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAC555B1FBC97E4006786D2 /* WebSignInViewController.swift in Sources */,
+				BDAC54EE1FBB9D7D006786D2 /* ViewController.swift in Sources */,
+				BDAC54EC1FBB9D7D006786D2 /* AppDelegate.swift in Sources */,
+				E822A9377E0A384A97CD5F04 /* SuccessViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC54F81FBB9D7D006786D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAC55011FBB9D7D006786D2 /* Floatplane_AuthenticatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAC55031FBB9D7E006786D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAC550C1FBB9D7E006786D2 /* Floatplane_AuthenticatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDAC54FE1FBB9D7D006786D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAC54E71FBB9D7D006786D2 /* Floatplane Authenticator */;
+			targetProxy = BDAC54FD1FBB9D7D006786D2 /* PBXContainerItemProxy */;
+		};
+		BDAC55091FBB9D7E006786D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAC54E71FBB9D7D006786D2 /* Floatplane Authenticator */;
+			targetProxy = BDAC55081FBB9D7E006786D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDAC54EF1FBB9D7D006786D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAC54F01FBB9D7D006786D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDAC54F41FBB9D7D006786D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAC54F51FBB9D7D006786D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BDAC55611FBC9F88006786D2 /* Success.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAC55621FBC9F88006786D2 /* Base */,
+			);
+			name = Success.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDAC550E1FBB9D7E006786D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDAC550F1FBB9D7E006786D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDAC55111FBB9D7E006786D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C2708F92DB5ECA530AE1FB /* Pods-Floatplane Authenticator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48VLBM2R7;
+				INFOPLIST_FILE = "Floatplane Authenticator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "software.jonasfranz.Floatplane-Authenticator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDAC55121FBB9D7E006786D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82C26CA2708795CDC0645FC /* Pods-Floatplane Authenticator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48VLBM2R7;
+				INFOPLIST_FILE = "Floatplane Authenticator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "software.jonasfranz.Floatplane-Authenticator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDAC55141FBB9D7E006786D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48VLBM2R7;
+				INFOPLIST_FILE = "Floatplane AuthenticatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "software.jonasfranz.Floatplane-AuthenticatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floatplane Authenticator.app/Floatplane Authenticator";
+			};
+			name = Debug;
+		};
+		BDAC55151FBB9D7E006786D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48VLBM2R7;
+				INFOPLIST_FILE = "Floatplane AuthenticatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "software.jonasfranz.Floatplane-AuthenticatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floatplane Authenticator.app/Floatplane Authenticator";
+			};
+			name = Release;
+		};
+		BDAC55171FBB9D7E006786D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48VLBM2R7;
+				INFOPLIST_FILE = "Floatplane AuthenticatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "software.jonasfranz.Floatplane-AuthenticatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Floatplane Authenticator";
+			};
+			name = Debug;
+		};
+		BDAC55181FBB9D7E006786D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48VLBM2R7;
+				INFOPLIST_FILE = "Floatplane AuthenticatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "software.jonasfranz.Floatplane-AuthenticatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Floatplane Authenticator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDAC54E31FBB9D7D006786D2 /* Build configuration list for PBXProject "Floatplane Authenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAC550E1FBB9D7E006786D2 /* Debug */,
+				BDAC550F1FBB9D7E006786D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAC55101FBB9D7E006786D2 /* Build configuration list for PBXNativeTarget "Floatplane Authenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAC55111FBB9D7E006786D2 /* Debug */,
+				BDAC55121FBB9D7E006786D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAC55131FBB9D7E006786D2 /* Build configuration list for PBXNativeTarget "Floatplane AuthenticatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAC55141FBB9D7E006786D2 /* Debug */,
+				BDAC55151FBB9D7E006786D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAC55161FBB9D7E006786D2 /* Build configuration list for PBXNativeTarget "Floatplane AuthenticatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAC55171FBB9D7E006786D2 /* Debug */,
+				BDAC55181FBB9D7E006786D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDAC54E01FBB9D7D006786D2 /* Project object */;
+}
