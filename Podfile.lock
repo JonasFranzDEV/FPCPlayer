@@ -1,0 +1,15 @@
+PODS:
+  - SwiftKeychainWrapper (3.0.1)
+  - Voucher (0.2.0)
+
+DEPENDENCIES:
+  - SwiftKeychainWrapper
+  - Voucher
+
+SPEC CHECKSUMS:
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  Voucher: fe9e38cf715242c8b75589e096d38f1115a3e73b
+
+PODFILE CHECKSUM: f63e353bd1b21711b9a7190ecd884866944b3c8f
+
+COCOAPODS: 1.4.0.beta.1
